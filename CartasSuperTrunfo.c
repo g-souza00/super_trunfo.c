@@ -1,21 +1,15 @@
 #include <stdio.h>
 
-// Desafio Super Trunfo - Países
-// Tema 1 - Cadastro das Cartas
-// Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
-// Siga os comentários para implementar cada parte do desafio.
-//Teste larissa
-
 int main() {
         
-    ///Definindo as váriaveis da primeira carta///
+    // Definindo as váriaveis da primeira carta
     int cidade_1;
     char estado_1[11];
     float pib_1;
     float area_1;
     int pontos;
     
-    ///Definindo as váriaveis da segunda carta///
+    // Definindo as váriaveis da segunda carta
     int cidade_2;
     char codigo_2;
     char estado_2[11];
@@ -23,7 +17,7 @@ int main() {
     float area_2;
     int pontos_2;
     
-    ///Coletando dados da primeira carta///
+    // Coletando dados da primeira carta
     printf("Insira os dados da Carta 1: \n");
     
     printf("Insira o estado de A a H: ");
@@ -41,7 +35,7 @@ int main() {
     printf("Insira os pontos turísticos: ");
     scanf("%d", &pontos);
 
-    ///Coletando dados da segunda carta///
+    // Coletando dados da segunda carta
     printf("Insira os dados da Carta 2: \n");
 
     printf("Insira o estado de A a H: ");
@@ -59,7 +53,7 @@ int main() {
     printf("Insira os pontos turísticos: ");
     scanf("%d", &pontos_2);
 
-    ///Imprime os dados da primeira carta///
+    // Imprime os dados da primeira carta
     printf("Carta: 1 \n");
     printf("Estado: %s \n", estado_1);
     printf("Código: %s%d \n", estado_1, cidade_1);
@@ -68,7 +62,7 @@ int main() {
     printf("Área: %f \n", area_1);
     printf("Pontos turísticos: %d \n", pontos);
 
-    ///Imprime os dados da segunda carta///
+    // Imprime os dados da segunda carta
     printf("Carta: 2 \n");
     printf("Estado: %s \n", estado_2);
     printf("Código: %s%d \n", estado_2, cidade_2);
