@@ -1,23 +1,26 @@
 #include <stdio.h>
 
-int main() {
-        
-    // Definindo as váriaveis da primeira carta
+int main(){
+    
+    
+    ///Definindo as váriaveis da primeira carta///
     int cidade_1;
     char estado_1[11];
     float pib_1;
     float area_1;
     int pontos;
+    int populacao_1;
     
-    // Definindo as váriaveis da segunda carta
+    ///Definindo as váriaveis da segunda carta///
     int cidade_2;
     char codigo_2;
     char estado_2[11];
     float pib_2;
     float area_2;
     int pontos_2;
+    int populacao_2;
     
-    // Coletando dados da primeira carta
+    ///Coletando dados da primeira carta///
     printf("Insira os dados da Carta 1: \n");
     
     printf("Insira o estado de A a H: ");
@@ -32,10 +35,13 @@ int main() {
     printf("Insira a área: ");
     scanf("%f", &area_1);
 
-    printf("Insira os pontos turísticos: ");
+    printf("Insira pontos turísticos: ");
     scanf("%d", &pontos);
+    
+    printf("Insira a população: ");
+    scanf("%d", &populacao_1);
 
-    // Coletando dados da segunda carta
+    ///Coletando dados da segunda carta///
     printf("Insira os dados da Carta 2: \n");
 
     printf("Insira o estado de A a H: ");
@@ -50,10 +56,13 @@ int main() {
     printf("Insira a área: ");
     scanf("%f", &area_2);
 
-    printf("Insira os pontos turísticos: ");
+    printf("Insira pontos turísticos: ");
     scanf("%d", &pontos_2);
+    
+    printf("Insira a população: ");
+    scanf("%d", &populacao_2);
 
-    // Imprime os dados da primeira carta
+    ///Imprime os dados da primeira carta///
     printf("Carta: 1 \n");
     printf("Estado: %s \n", estado_1);
     printf("Código: %s%d \n", estado_1, cidade_1);
@@ -61,8 +70,9 @@ int main() {
     printf("PIB: %f \n", pib_1);
     printf("Área: %f \n", area_1);
     printf("Pontos turísticos: %d \n", pontos);
+    printf("População: %d \n", populacao_1);
 
-    // Imprime os dados da segunda carta
+    ///Imprime os dados da segunda carta///
     printf("Carta: 2 \n");
     printf("Estado: %s \n", estado_2);
     printf("Código: %s%d \n", estado_2, cidade_2);
@@ -70,6 +80,8 @@ int main() {
     printf("PIB: %f \n", pib_2);
     printf("Área: %f \n", area_2);
     printf("Pontos turísticos: %d \n", pontos_2);
+    printf("População: %d \n", populacao_2);    
     
     return 0;
+
 }
